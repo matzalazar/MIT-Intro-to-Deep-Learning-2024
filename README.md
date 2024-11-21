@@ -30,7 +30,7 @@ MIT-Intro-to-Deep-Learning-2024/
 - Redes con más de una capa. 
 - Funciones de activación no lineales. 
 - Problemas prácticos (optimización, sobreajuste).  
-- 
+ 
 **Próximas clases:**  
 Se irán incorporando progresivamente a medida que se completen los apuntes.  
   
