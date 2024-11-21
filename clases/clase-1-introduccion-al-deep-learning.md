@@ -109,7 +109,7 @@ Le permite a la red neuronal lidiar con información no lineal. Y de ese modo pr
 
 ![Ejemplo 1](/recursos/imagenes/perceptron-example-000.jpeg)
 
-Tenemos $w_0 = 1$ y $\`W=\begin{bmatrix} 3 \\ -2 \end{bmatrix}`$
+Tenemos $w_0 = 1$ y $W=[3,-2]$
 
 Dos inputs: $x_1$ y $x_2$. Multiplicamos los nodos, sumamos el resultado y el sesgo. Y finalmente aplicamos la función no lineal. 
 
