@@ -133,7 +133,7 @@ Donde $(1 + 3x_1 - 2x_2)$ es sólo una línea en dos dimensiones. Porque sólo t
 
 Si lo graficamos en un sistema de ejes cartesionamos, podremos ver exactamente cuál es el resultado que arroja esta neurona y qué espacios define.
 
-Si a esa neurona le doy nueva data ($\begin{bmatrix} -1 \\ 2 \end{bmatrix}$), la respuesta que la red nos dará sobre ese nuevo punto de dos parámetros dependerá de hacia qué lado del espacio caiga.
+Si a esa neurona le doy nueva data $\begin{bmatrix} -1 \\ 2 \end{bmatrix}$, la respuesta que la red nos dará sobre ese nuevo punto de dos parámetros dependerá de hacia qué lado del espacio caiga.
 
 $$
 \hat{y} = g\left(1 + (3*-1) - (2*2)\right)
