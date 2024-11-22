@@ -51,7 +51,7 @@ $$
 \hat{y} = g\left(w_0 + X^T W\right)
 $$
 
-donde $ X = \begin{bmatrix} x_1 \\ \vdots \\ x_m \end{bmatrix} $ y $ W = \begin{bmatrix} w_1 \\ \vdots \\ w_m \end{bmatrix} $.
+donde $X = \begin{bmatrix} x_1 \\ \vdots \\ x_m \end{bmatrix}$ y $W = \begin{bmatrix} w_1 \\ \vdots \\ w_m \end{bmatrix}$.
 
 ## Funciones de activación.
 
@@ -109,7 +109,7 @@ Le permite a la red neuronal lidiar con información no lineal. Y de ese modo pr
 
 ![Ejemplo 1](/recursos/imagenes/perceptron-example-000.jpeg)
 
-Tenemos $w_0 = 1$ y $W=\begin{pmatrix} 3 \\ -2 \end{pmatrix}$.
+Tenemos $w_0 = 1$ y $W = \begin{bmatrix} 3 \\ -2 \end{bmatrix}$.
 
 Dos inputs: $x_1$ y $x_2$. Multiplicamos los nodos, sumamos el resultado y el sesgo. Y finalmente aplicamos la función no lineal. 
 
