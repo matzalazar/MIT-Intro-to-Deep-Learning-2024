@@ -51,7 +51,17 @@ $$
 \hat{y} = g\left(w_0 + X^T W\right)
 $$
 
-donde $X = \begin{bmatrix} x_1 \\ \vdots \\ x_m \end{bmatrix}$ y $W = \begin{bmatrix} w_1 \\ \vdots \\ w_m \end{bmatrix}$.
+donde 
+
+$$
+X = \begin{bmatrix} x_1 \\ \vdots \\ x_m \end{bmatrix}
+$$ 
+
+y 
+
+$$
+W = \begin{bmatrix} w_1 \\ \vdots \\ w_m \end{bmatrix}
+$$
 
 ## Funciones de activación.
 
@@ -109,7 +119,13 @@ Le permite a la red neuronal lidiar con información no lineal. Y de ese modo pr
 
 ![Ejemplo 1](/recursos/imagenes/perceptron-example-000.jpeg)
 
-Tenemos $w_0 = 1$ y $W = \begin{bmatrix} 3 \\ -2 \end{bmatrix}$.
+Tenemos $w_0 = 1$ 
+
+y 
+
+$$
+W = \begin{bmatrix} 3 \\ -2 \end{bmatrix}
+$$
 
 Dos inputs: $x_1$ y $x_2$. Multiplicamos los nodos, sumamos el resultado y el sesgo. Y finalmente aplicamos la función no lineal. 
 
@@ -133,7 +149,13 @@ Donde $(1 + 3x_1 - 2x_2)$ es sólo una línea en dos dimensiones. Porque sólo t
 
 Si lo graficamos en un sistema de ejes cartesionamos, podremos ver exactamente cuál es el resultado que arroja esta neurona y qué espacios define.
 
-Si a esa neurona le doy nueva data $\begin{bmatrix} -1 \\ 2 \end{bmatrix}$, la respuesta que la red nos dará sobre ese nuevo punto de dos parámetros dependerá de hacia qué lado del espacio caiga.
+Si a esa neurona le doy nueva data 
+
+$$
+\begin{bmatrix} -1 \\ 2 \end{bmatrix}
+$$
+
+la respuesta que la red nos dará sobre ese nuevo punto de dos parámetros dependerá de hacia qué lado del espacio caiga.
 
 $$
 \hat{y} = g\left(1 + (3*-1) - (2*2)\right)
